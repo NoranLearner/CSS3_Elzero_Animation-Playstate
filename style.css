@@ -1,0 +1,114 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.first{
+    width: 100px;
+    height: 100px;
+    top: 10px;
+    left: 10px;
+    background-color: #a52a2a;
+    color: #fff;
+    position: absolute;
+    animation-name: moving;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-direction:normal;
+    animation-delay: 0s;
+    animation-fill-mode:none;
+    animation-play-state: running;
+    animation-timing-function: ease;
+
+}
+
+.second{
+    width: 100px;
+    height: 100px;
+    top: 10px;
+    left: 120px;
+    background-color: #a52a90;
+    color: #fff;
+    position: absolute;
+    animation-name: moving;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-direction:normal;
+    animation-delay: 0s;
+    animation-fill-mode:none;
+    animation-play-state: running;
+    animation-timing-function: linear;
+
+}
+
+.third{
+    width: 100px;
+    height: 100px;
+    top: 10px;
+    left: 230px;
+    background-color: #59c438;
+    color: #fff;
+    position: absolute;
+    animation-name: moving;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-direction:normal;
+    animation-delay: 0s;
+    animation-fill-mode:none;
+    animation-play-state: running;
+    animation-timing-function: ease-in;
+
+}
+
+.fourth{
+    width: 100px;
+    height: 100px;
+    top: 10px;
+    left: 340px;
+    background-color: #4f2aa5;
+    color: #fff;
+    position: absolute;
+    animation-name: moving;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-direction:normal;
+    animation-delay: 0s;
+    animation-fill-mode:none;
+    animation-play-state: running;
+    animation-timing-function: ease-out;
+
+}
+
+.fifth{
+    width: 100px;
+    height: 100px;
+    top: 10px;
+    left: 450px;
+    background-color: #8eb82e;
+    color: #fff;
+    position: absolute;
+    animation-name: moving;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-direction:normal;
+    animation-delay: 0s;
+    animation-fill-mode:none;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+
+}
+
+
+@keyframes moving{
+
+    0%{
+        top: 10px;
+    }
+
+    100%{
+        top: 420px ;
+    }
+
+}
